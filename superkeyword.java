@@ -19,3 +19,38 @@ class horse extends animal{
         System.out.println("horse constor");
     }
 }
+
+
+
+
+
+
+
+
+
+// class Parent {
+//     void display() {
+//         System.out.println("This is Parent's display()");
+//     }
+// }
+
+// class Child extends Parent {
+//     void display() {
+//         System.out.println("This is Child's display()");
+//     }
+
+//     void show() {
+//         // Call child’s own display()
+//         display();
+
+//         // Call parent’s display() using super
+//         super.display();
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Child c = new Child();
+//         c.show();
+//     }
+// }
